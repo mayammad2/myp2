@@ -1,0 +1,193 @@
+@font-face {
+	font-family: irsansl;
+	font-style: normal;
+	font-weight:150%;
+	src:url('../fonts/IranSansL.eot');
+	src:url('../fonts/IranSansL.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IranSansL.woff2') format('woff2'),
+	url('../fonts/IranSansL.woff') format('woff'),
+	url('../fonts/IranSansL.ttf') format('truetype');
+}
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/IranSans.eot');
+	src:url('../fonts/IranSans.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IranSans.woff2') format('woff2'),
+	url('../fonts/IranSans.woff') format('woff'),
+	url('../fonts/IranSans.ttf') format('truetype');
+}
+@font-face {
+	font-family: yekan;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/yekan.eot');
+	src:url('../fonts/yekan.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/yekan.woff2') format('woff2'),
+	url('../fonts/yekan.woff') format('woff'),
+	url('../fonts/yekan.ttf') format('truetype');
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/Vazir.eot');
+	src:url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir.woff2') format('woff2'),
+	url('../fonts/Vazir.woff') format('woff'),
+	url('../fonts/Vazir.ttf') format('truetype');
+}
+
+/***  @@@@--> F  O  N  T  S  <--@@@@  ***/
+
+* {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar {
+         margin-top:100px;
+         margin-right:1%;
+         border-style:;
+         border-left:4px groove #5B5B5B;
+         border-top:6px groove #5B5B5B;
+         border-right:4px groove #5B5B5B;
+         border-radius:5px;
+         background: lightgrey; /* same color as the li */
+         width: 30%;
+         height: 100%; /* takes the full width */
+         position: fixed;
+         top: 0px; /* sticks the side nav to the top */
+         right: px; /* sticks the side nav to the left side */
+         overflow-y: auto; /* adds a vertical scrolling functionality when needed */
+      }
+      .nav-bar a {
+         
+         text-decoration:none;
+         color: black;
+         display: block;
+      }
+      .nav-bar > ul {
+         height:30px;
+         list-style-type:lower-roman;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         
+      }
+      .nav-bar > ul > li > a:hover {
+         
+         background: red;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         border:2px solid blue;
+         background: #173459;
+         color: #f8f9f9;
+      }
+ .mci {
+   text-decoration:none;
+   background-image:url("../media/mci.jpg");
+   background-repeat:repeat;
+   }
+.mtn {
+  background-image:url("../media/mtn.jpg");
+  background-repeat:repeat;
+  }
+
+      .nav-bar li {
+         border: 1px solid #333;
+      }
+  
+  
+      .content {
+         margin-right: 30%;
+         width: 70%;
+         padding: 15px;
+      }
+/*** ############################ ***/
+.body {
+  font-family:vazir;
+  font-size:14px;
+  }
+
+.header {
+   position:absolute;
+border-top:30px solid darkgreen;
+border-right:1px solid darkblue;
+border-left:1px solid darkblue;
+border-bottom:30px solid darkred;
+   top:0;
+   width:98%;
+   margin-top:1%;
+   margin-left:1%;
+   margin-right:1%;
+   height:90px;
+   border-radius:10px;
+  }
+.form1 {
+   position:relative;
+   border:4px groove #5B5B5B;
+   margin-top:100px;
+   margin-right:32%;
+   margin-left:1%;
+   border-radius:5px;
+  }
+.form2 {
+   position:;
+   border:2px ridge #5B5B5B;
+   margin-top:1px;
+   margin-right:32%;
+   margin-left:1%;
+   border-radius:5px;
+  }
+  
+  
+  .iran {
+   font-family:yekan;
+   font-size:25px;
+    }
+  .img0 {
+   border:2px solid black;
+   margin-left:1%;
+   margin-top:1%;
+   width:35%;
+    }
+  .sp {
+   
+   width:55%;
+   height:auto;
+   float:;
+    }
+    
+ 
+ table {
+ border-collapse:collapse;
+ font-family:vazir;
+ font-size:10px;
+ }
+ table, th, td {
+ border: 1px solid black;
+ text-align: center;
+ }
+ th, td {
+ text-align:center;
+ padding: 5px;
+ }
+ th {
+ text-align:center;
+ background-color:gray;
+ font-weight:bolder;
+ }
+ td  {
+ 
+ }
+ .tth {
+ text-align:center;
+ }
+ 
