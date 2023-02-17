@@ -64,7 +64,7 @@
    <td>11</td>
    <td>11.bak</td>
    <td>1401/11/27</td>
-   <td><a href="https://mayammad2.github.io/myp2/files/11.bak" class="btn btn-danger" >دانلودg</a></td>
+   <td><a href="https://mayammad2.github.io/myp2/files/11.bak" class="btn btn-danger" >دانلــود</a></td>
    </tr>
    </table>
    
