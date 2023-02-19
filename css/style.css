@@ -9,6 +9,14 @@
 	url('../fonts/IranSansL.ttf') format('truetype');
 }
 @font-face {
+	font-family: irsansb;
+	src:url('../fonts/IranSans.B.eot');
+	src:url('../fonts/IranSans.B.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IranSans.B.woff2') format('woff2'),
+	url('../fonts/IranSans.B.woff') format('woff'),
+	url('../fonts/IranSans.B.ttf') format('truetype');
+}
+@font-face {
 	font-family: irsans;
 	font-style: normal;
 	font-weight:;
@@ -133,11 +141,13 @@ border-bottom:40px solid darkred;
   }
 .form1 {
    position:relative;
-   border:4px groove #5B5B5B;
+   border:8px groove #5B5B5B;
    margin-top:130px;
    margin-right:22%;
    margin-left:1%;
    border-radius:5px;
+   text-align:center;
+   font-family:irsansb;
   }
 .form2 {
    position:;
@@ -167,24 +177,53 @@ border-bottom:40px solid darkred;
     }
     
  
-.form2 > .table {
- border-collapse:collapse;
- font-family:vazir;
- font-size:10px;
+.tbl {
+ border-collapse:separate;
+ font-family:irsansl;
+ font-size:14px;
+ padding:5%;
+
  }
- .form2 > .table > .th > .td {
- border: 1px solid black;
+ thead {
+ background-color:black;
+ color:yellow;
+ }
+ .div {
+ background-color:#FFDC55;
+ color:yellow;
+ border-top:1px solid black;
+ }
+ .div2 {
+ border-bottom:2px solid black;
+ }
+ tbody {
+  background-color:#FFFEDB;
+ }
+ .tth {
+ text-align:center;
+
+ font-weight:bolder;
+
+ }
+ .ttdr {
+ 
+ }
+ .ttr {
+border:2px solid black;
+ }
+ .tbl, .tth, .ttd {
+ 
  text-align: center;
  }
  .form2 > .th, td {
  text-align:center;
  padding: 5px;
  }
- .form2 > .th {
- text-align:center;
- background-color:gray;
- font-weight:bolder;
- }
+
+
+
+
+
  td  {
  
  }
