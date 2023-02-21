@@ -47,13 +47,19 @@
 	url('../fonts/Vazir.ttf') format('truetype');
 }
 @font-face {
-	font-family: jadid;
-	font-style: normal;
-	font-weight:;
-	src:url('../fonts/jadid.eot');
-	src:url('../fonts/jadid.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/jadid.woff') format('woff'),
-	url('../fonts/jadid.ttf') format('truetype');
+	font-family: sahelb;
+	src:url('../fonts/sahelb.eot');
+	src:url('../fonts/sahelb.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/sahelb.woff') format('woff'),
+	url('../fonts/sahelb.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: parastoob;
+	src:url('../fonts/parastoob.eot');
+	src:url('../fonts/parastoob.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/parastoob.woff') format('woff'),
+	url('../fonts/parastoob.ttf') format('truetype');
 }
 
 /***  @@@@--> F  O  N  T  S  <--@@@@  ***/
@@ -139,7 +145,7 @@
       }
 /*** ############################ ***/
 .body {
-  font-family:irsansb;
+  font-family:irsansl;
   font-size:16px;
   background-color:lightgray;
   }
@@ -215,7 +221,7 @@ border-bottom:40px solid darkred;
  
 .tbl {
  border-collapse:separate;
- font-family:irsansb;
+ font-family:irsansl;
  font-size:16px;
  padding:5%;
 
@@ -256,7 +262,25 @@ border:2px solid black;
  padding: 5px;
  }
 
+.taq {
+font-family:irsansb;
+font-size:15px;
+color:darkblue;
+text-align:center;
+background-color:#FFFEDB;
+border-bottom:1px solid black;
+}
 
+.taa {
+font-family:vazir;
+font-size:15px;
+color:darkred;
+text-align:right;
+background-color:#FFFEDB;
+border-bottom:1px solid black;
+width:110px;
+border-left:2px solid black;
+}
 
 
 
