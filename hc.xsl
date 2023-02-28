@@ -9,7 +9,7 @@
 <xsl:value-of select="location"/>
 <xsl:value-of select="mci"/>
 <xsl:value-of select="mtn"/>
-<xsl:value-of select="link"/>
+<a href="xsl:value-of select="link"" > down </a>
       </div>
     </xsl:for-each>
   </body>
