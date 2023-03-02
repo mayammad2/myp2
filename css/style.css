@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Brawler&family=Chela+One&family=Creepster&family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Noto+Emoji:wght@300;400;500;600;700&family=Noto+Sans+Old+Persian&family=Noto+Sans+Symbols+2&family=Righteous&family=Sriracha&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Noto+Emoji:wght@300;400;500;600;700&family=Noto+Sans+Symbols+2&display=swap');
+/* simple 
 
+font-family: 'Anton', sans-serif;
+font-family: 'Brawler', serif;
+font-family: 'Chela One', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Gluten', cursive;
+font-family: 'Noto Emoji', sans-serif;
+font-family: 'Noto Sans Old Persian', sans-serif;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Sriracha', cursive;
+font-family: 'Vazirmatn', sans-serif;
+
+///*/
 
 @font-face {
 	font-family: irsansl;
@@ -355,11 +369,11 @@ border-left:2px solid black;
  display: none;
  border:1px solid blue;
  font-family:vazir;
- background-color:#D4FF9B;
+ background-color:#333333;
  color:yellow;
  font-size:14px;
  width:150px;
-height:70px;
+height:auto;
  }
  .dd:hover > .dd-content {
  display: block;
