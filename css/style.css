@@ -378,6 +378,15 @@ height:auto;
  .dd:hover > .dd-content {
  display: block;
  }
+ 
+ .idth {
+   font-family:irsansb;
+   color:lightgreen;
+    }
+ .idtd {
+   font-family:irsans;
+   color:lightblue;
+    }
  ////////\\
  .button {
  display: inline-block;

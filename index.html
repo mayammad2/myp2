@@ -78,7 +78,7 @@
     <form class="form3" id="ff" >
     <div class="dd" >
       <span class="dd-button">
-        <img src="media/cl2.png" width="70px" contenteditable="" onclick="mycl()">
+        <img src="media/cl2.png" width="70px" contenteditable="" onclick="mycl()" ondblclick="mycll">
       </span>
       <div class="dd-content" >
         <!--  <span style="font-family:Gluten;font-size:18px;color:red;font-weight:bolder;" >VIPEN CLIENT PRO</span>  -->
@@ -87,7 +87,7 @@
     </div>
     <div class="dd" >
       <span class="dd-button">
-        <img src="media/nv2.png" width="70px" contenteditable="" onclick="myfunc()" id="ss1" >
+        <img src="media/nv2.png" width="70px" contenteditable="" onclick="mynv()" id="ss1" >
       </span>
       <div class="dd-content" >
         <!--  <span style="font-family:Gluten;font-size:18px;color:red;font-weight:bolder;" >VIPEN CLIENT PRO</span>  -->
@@ -132,17 +132,31 @@
           <td><img src="media/cl2.png" width="65px" ></td>
 
          </tr>
-       </table>   -->
-       <p id="gg" style="color:red" >hhhj</p> 
+       </table>   
+       
+       <h3 class="idth" id="idh3" ></h3>
+       <table>
+         <tr style="border:1px solid white" >
+           <th class="idth" id="th1" ></th>
+           <th class="idtd" id="th2" ></th>
+         </tr>
+         <tr style="border:1px solid white" >
+           <td class="idth" id="td1" ></td>
+           <td class="idtd" id="td2" ></td>
+         </tr>
+       </table>
        <script type="text/javascript">
-       function mycl() {
+          function mycl() {
+           document.getElementById("th1").innerHTML = 1 ;
+           document.getElementById("th2").innerHTML = 2;
+           document.getElementById("td1").innerHTML = 3 ;   
+           document.getElementById("td2").innerHTML = 4 ;       
+          }
+          function mynv() {
+           document.getElementById("idh3").innerHTML = 'زحمت';
 
-       document.getElementById("gg").includes(ActiveXObject())
-       }
-       function myfunc() {
-       document.getElementById("gg").hidden = 'no-hidden';
-       }
-       </script>
+          }
+       </script>   -->
     </form>
     <form class="form3">
     <marquee direction="right"><span style="color:yellow;font-size:17px;font-family:irsansb;" >این صفحه درحال حاضر به دلیل تازه تاسیس بودن، درحال ساخت و بروزرسانی است.</span></marquee>
@@ -202,14 +216,14 @@
 </tr>
   </thead>
   <tbody class="tbody" >
-  <tr>
+<!--  <tr>
   <td style="border-right:2px solid black" >19</td>
   <td>️46سرور</td>
   <td>️✔</td>
   <td>✔</td>
   <td>1401/12/10</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/cl/19.bak" class="btn btn-success" >دانلــود</a></td>
-  </tr>
+  </tr>  -->
  <tr>
   <td style="border-right:2px solid black" >20</td>
   <td>76سرور</td>
@@ -225,6 +239,14 @@
   <td>✔</td>
   <td>1401/12/13</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/cl/21.bak" class="btn btn-success" >دانلــود</a></td>
+  </tr>
+  <tr>
+  <td style="border-right:2px solid black;background-color:orange;" >22</td>
+  <td style=";background-color:orange;" >117سرور</td>
+  <td style=";background-color:orange;" >✔</td>
+  <td style=";background-color:orange;" >✔</td>
+  <td style=";background-color:orange;" >1401/12/14</td>
+  <td style="border-left:2px solid black;background-color:orange;"><a style="background-color:"  href="https://mayammad2.github.io/myp2/files/conf/cl/22.bak" class="btn btn-danger" >دانلــود</a></td>
   </tr>
     </tbody></table>
   <hr>
@@ -530,7 +552,7 @@
   </tr>
   </legend>
   
-  <legend class="fa fa-triangle-exclamation fa-4x" style="color:yellow"><span name="not1"  style="font-family:sahelb;font-size:20px;color:white;text-align:right;" >درصورتی که برنامه به‌روز نباشد، کار نمیکند.</ul></legend>
+ 
   <table style="border:2px solid black" align="center" >
   <tr>
   <td rowspan="4" style="width:80px;height:auto;border-left:2px ridge black;background-color:gray;"  >
@@ -578,31 +600,31 @@
   <td>️کانادا 🇨🇦</td>
   <td>️️✔</td>
   <td>️✔</td>
-  <td>1401/12/08</td>
+  <td>1401/12/13</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/hi/001.ehi" class="btn btn-success" >دانلــود</a></td>
   </tr>
   <tr>
-  <td style="border-right:2px solid black" >10</td>
+  <td style="border-right:2px solid black" >002</td>
   <td>هند 🇮🇳</td>
   <td>️️✔</td>
   <td>️✔</td>
-  <td>1401/12/08</td>
+  <td>1401/12/13</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/hi/002.ehi" class="btn btn-success" >دانلــود</a></td>
   </tr>
   <tr>
-  <td style="border-right:2px solid black" >11</td>
+  <td style="border-right:2px solid black" >003</td>
   <td>️آمریکا 🇺🇸</td>
   <td>️️✔</td>
   <td>️✔</td>
-  <td>1401/12/12</td>
+  <td>1401/12/13</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/hi/003.ehi" class="btn btn-success" >دانلــود</a></td>
   </tr>
   <tr>
-  <td style="border-right:2px solid black" >12</td>
+  <td style="border-right:2px solid black" >004</td>
   <td>️کانادا 🇨🇦</td>
   <td>️️✔</td>
   <td>️✔</td>
-  <td>1401/12/12</td>
+  <td>1401/12/13</td>
   <td style="border-left:2px solid black;"><a style="background-color:darkblue"  href="https://mayammad2.github.io/myp2/files/conf/hi/004.ehi" class="btn btn-success" >دانلــود</a></td>
   </tr>  
 <!--  <tr>
@@ -663,11 +685,29 @@
   برای اینکه بتوانید از سرورها استفاده کنید باید فایل کانفیگ را دانلود کنید و مطابق فیلم.آموزشی درون برنامه قرار دهید و استفاده کنید.  
   </span></ul></div>
   
-  </span></form>
- 
- 
+  </span></form><br>
+ <form class="form2" >
+<div hidden="hidden" id="sho" > 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-aa15eb50-2431-4db6-81a9-70622da0a826"></div>
+</div>
+<br>
+<p id="dd" ></p>
+<dd>
+رمز
+<input type="password" name="pas" id="pas" >
+<p class="btn btn-danger" onclick="mypfunc()">gg</p>
+<br><a href="help.html" class=""  id="help"></a>
+</form>
+<script type="text/javascript">
+function mypfunc() {
+var myp = document.getElementById("pas").value;
+if(myp == 11){
+
+}
+
+}
+</script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
