@@ -431,3 +431,34 @@ height:auto;
  background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
  }
+ 
+ 
+ /*      🔴🔴🔴MY MENU🔴🔴🔴    */
+ 
+ .mymenu {
+ background-color:;
+ }
+ .mymenu .limenu {
+ border:2px solid black;
+ border-radius:10px;
+ margin-top:3px;
+ margin-left:5px;
+ }
+ .mymenu a {
+ background-color:red;
+ }
+ .mymenu a .limenu {
+ color:black;
+ }
+ .mymenu a:link .limenu {
+ background-color:lightblue;
+ color:black;
+ }
+ .mymenu a:hover .limenu {
+ background-color:yellow;
+ color:darkblue;
+ }
+  .mymenu a:active .limenu {
+  background-color:black;
+  color:yellow;
+  }
