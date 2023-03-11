@@ -285,9 +285,21 @@ position:relative;
  .div2 {
  border-bottom:2px solid black;
  }
+ 
+ 
+ 
  .tbody {
   background-color:#ccccff;
  }
+    .tbody a {
+      background-color:darkblue;
+      font-family:sahelb;
+    }
+    .tbody a:link {
+      background-color:red;
+    }
+ 
+ 
  .tth {
  text-align:center;
 
@@ -461,4 +473,10 @@ height:auto;
   .mymenu a:active .limenu {
   background-color:black;
   color:yellow;
+  }
+  
+ 
+  
+  .thtab {
+  background-color:black;
   }
