@@ -292,13 +292,22 @@ position:relative;
   background-color:#ccccff;
  }
     .tbody a {
-      background-color:darkblue;
+      font-size:20px;
+      color:white;
+      background-color:;
+      text-underline-offset:no;
       font-family:sahelb;
     }
-    .tbody a:link {
-      background-color:red;
+    
+    .tbody a:hover {
+      color:green;
+      text-underline-offset:no;
     }
- 
+ .tbody a:active {
+   color:yellow;
+   text-underline-offset:no;
+
+ }
  
  .tth {
  text-align:center;
